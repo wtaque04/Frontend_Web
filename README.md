@@ -6,8 +6,8 @@ Prueba Técnica Frontend Web (Playwright)
 Este proyecto es una prueba técnica el cual implmenta un sistema simple d visualizar el estado de las asistencias en tiempo real
 en el modulo "Mi Asistencia", y datos de profesional asignado.
 
-Incluye Backend (servidor SSE para actualizacion en tiempo real o cambio de estados dentro de la aplicacion)
-Incluye Frontnd (Actualizaciones dinámicas con UI) y pruebas automatizadas con Playwright.
+###Incluye Backend (servidor SSE para actualizacion en tiempo real o cambio de estados dentro de la aplicacion)
+###Incluye Frontnd (Actualizaciones dinámicas con UI) y pruebas automatizadas con Playwright.
 ---
 ### Estructura del proyecto
 
@@ -53,7 +53,7 @@ Playwright
 1. Instalar depndencias: npm install (node js).
 2. Levantar servidor backend: npm run start-backend
 3. Levantar servidor frontend: npm run start-frontend
-# NOTA : Se pueden levantar los dos servidores al tiempo: npm run start
+### NOTA : Se pueden levantar los dos servidores al tiempo: npm run start
 4. Abrir navegador y visitar Frontend_Web/frontend/login.html para hacer login
 5. Ver módulo asistencias
 ---
