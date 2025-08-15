@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Iniciar Sesión</h1>
+
+  <form onsubmit="return validarLogin(event)">
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" required />
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" required />
+
+    <button type="submit">Ingresar</button>
+    <p id="error" style="color: red;"></p>
+  </form>
+
+  <script>
+    function validarLogin(event) {
+      event.preventDefault(); // Evita recarga
+
+      const usuario = document.getElementById('usuario').value;
+      const password = document.getElementById('password').value;
+      const error = document.getElementById('error');
+
+      if (usuario === 'admin' && password === '1234') {
+        window.location.href = 'menu.html'; // Redirige al menú donde esta la opcion asistencias
+      } else {
+        error.textContent = 'Credenciales incorrectas';
+      }
+    }
+  </script>
+</body>
+</html>

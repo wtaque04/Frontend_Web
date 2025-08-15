@@ -1,0 +1,21 @@
+<!-- frontend/menu.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Menú Principal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bienvenido al sistema</h1>
+  <p>Has iniciado sesión correctamente.</p>
+  
+  <button id="btn-ir-asistencias">Ir al módulo Mi Asistencia</button>
+
+  <script>
+    document.getElementById('btn-ir-asistencias').addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
