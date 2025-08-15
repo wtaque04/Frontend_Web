@@ -4,10 +4,10 @@ Pruebas de Automatizadas de aplicacion web con Playwright
 Prueba Técnica Frontend Web (Playwright)
 
 Este proyecto es una prueba técnica el cual implmenta un sistema simple d visualizar el estado de las asistencias en tiempo real
-en el modulo "Mi Asistencia", y datos de profesional asignado.
+en el modulo "Mi Asistencia", y datos de profesional asignado.  
+Incluye Backend (servidor SSE para actualizacion en tiempo real o cambio de estados dentro de la aplicacion). 
+Incluye Frontnd (Actualizaciones dinámicas con UI) y pruebas automatizadas con Playwright.
 
-###Incluye Backend (servidor SSE para actualizacion en tiempo real o cambio de estados dentro de la aplicacion)
-###Incluye Frontnd (Actualizaciones dinámicas con UI) y pruebas automatizadas con Playwright.
 ---
 ### Estructura del proyecto
 
