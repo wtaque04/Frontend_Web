@@ -30,6 +30,7 @@ Frontend_Web/
 ├── README.md
 ├── html-report/
 ├── playwright-report/
+
 ---
 ### Datos de entreda
     usuario: admin
