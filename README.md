@@ -1,5 +1,4 @@
-# Fronted_Web
-Pruebas de Automatizadas de aplicacion web con Playwright
+# Pruebas de Automatizadas de aplicacion web con Playwright
 =======
 Prueba Técnica Frontend Web (Playwright)
 
